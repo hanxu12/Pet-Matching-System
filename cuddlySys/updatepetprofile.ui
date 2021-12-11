@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>updatepetprofile</class>
+ <widget class="QWidget" name="updatepetprofile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>252</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="back">
+       <property name="minimumSize">
+        <size>
+         <width>31</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>31</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>⬅</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Manjari</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Profile Information</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="LE_name">
+     <property name="font">
+      <font>
+       <family>Manjari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="species">
+     <property name="font">
+      <font>
+       <family>Manjari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>Species:</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Dog</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cat</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hamster</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fish</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mice</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Birds</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Snakes</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Other</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="Breed">
+     <property name="font">
+      <font>
+       <family>Manjari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="LE_description"/>
+   </item>
+   <item>
+    <widget class="QComboBox" name="color">
+     <property name="font">
+      <font>
+       <family>Manjari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>Color:</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Brown</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Black</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>White</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gray</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Orange</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Other</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="age">
+     <property name="font">
+      <font>
+       <family>Manjari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>Age:</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Born</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1 - 2 years</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2 - 6 years</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>6 - 10 years</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10 - 14 years</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>14 years and older</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="weight">
+     <property name="font">
+      <font>
+       <family>Manjari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>Weight:</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&lt;10 lbs</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>20 - 50 lbs</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>50 - 100 lbs</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&gt;100 lbs</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="CB_Gender">
+     <property name="font">
+      <font>
+       <family>Manjari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <item>
+      <property name="text">
+       <string>Gender:</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Male</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Female</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Other</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="maximumSize">
+        <size>
+         <width>15</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="isRescued_2">
+       <property name="font">
+        <font>
+         <family>Manjari</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Rescued Pet?</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="maximumSize">
+        <size>
+         <width>15</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="isDiseased_2">
+       <property name="font">
+        <font>
+         <family>Manjari</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Diseased Pet?</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="PB_update">
+     <property name="font">
+      <font>
+       <family>Manjari</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: 2px solid #8f8f91;
+    border-radius: 40px;
+    background-color: #9fff80;
+    min-width: 80px;
+	min-height: 80px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Update</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
